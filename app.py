@@ -10,11 +10,11 @@ app.config["MONGO_URI"] = 'mongodb+srv://root:r00tUser@myfirstcluster-x0xst.mong
 
 mongo = PyMongo(app)
 
-@app.route('/')
 @app.route('/add_task')
 def add_task():
     return render_template("addtask.html", categories=mongo.db.categories.find())
 
+@app.route('/')
 @app.route('/get_tasks')
 def get_tasks():
     return render_template("tasks.html", tasks=mongo.db.tasks.find())
