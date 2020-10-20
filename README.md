@@ -1,4 +1,4 @@
-
+# Task Manager Project
 Visit the live website: [Task Manager](https://sebastian-torres-matrix.github.io/task-manager/)
 
 ## Technologies Used :computer: 
@@ -10,7 +10,7 @@ Visit the live website: [Task Manager](https://sebastian-torres-matrix.github.io
 * Python
 
 #### Libaries & Frameworks
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/ ) 
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) 
 * [Materialize](https://materializecss.com/) 
 * [JQuery](https://jquery.com/) 
 
